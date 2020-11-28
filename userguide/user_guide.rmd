@@ -1,0 +1,95 @@
+Background information
+
+The visual bulls have been produced at SYKE as part of a project funded by the Ministry of the Environment and the Ministry of Agriculture and Forestry to coordinate water management and flood risk management and to take climate change into account in planning (ClimVeTuri, 2019-2020).
+
+Climate change affects the quality and quantity of water resources in many ways. The most significant changes in the hydrological conditions of Finland's inland waters are runoff, flow and the increase in seasonal variations in water levels.
+
+Winter runoff is expected to increase significantly due to snowmelt and increasing rainfall. Correspondingly, spring floods are decreasing, especially in central and southern Finland. The changing climate also affects water quality and groundwater resources. The effects are expected to intensify substantially by the end of this century. Climate change and its effects on water pollution and flood risks are key issues in water management and flood risk management.
+
+In this application, it is possible to visualize the effects of climate change on watercourses and floods in different parts of Finland using different hydrological scenarios until 2069. The visualizations are interactive and allow comparison between different time series and climate scenarios. Graphs can also be uploaded to your own workstation.
+Material and scenarios
+
+The presented hydrological scenarios are based on the flows simulated by SYKE's Water Model System at different river points in the reference period 1981-2010, as well as in two different future periods 2010-2039 and 2040-2069. The model has simulated flow values ​​for the reference period based on the data entered in the model. Temperatures and precipitation observed during the reference period (1981-2010) as well as other meteorological variables have been used as input data. Future periods have been calculated by changing the temperatures and precipitation of the reference period to correspond to different climate scenarios.
+
+For daily flows, the results are presented in three different scenarios (average, ie the average of several climate models, warm and wet scenario, and cold scenario). These have been selected from a larger set of climate scenarios to represent the mean and extreme values ​​of climate change.
+
+For floods, the results are based on a set of 25 scenarios from which the average, maximum and minimum change in floods have been calculated.
+
+The RCPs (representative concentration pathways) describe the potential greenhouse gas concentration scenarios calculated by the climate panel IPCC. By the end of the century, the development costs of different concentrations and the resulting emissions will produce different levels of radiation sanctions. Different concentration scenarios are denoted by abbreviations such as RCP2.6 and RCP4.5, where the numerical value refers to the magnitude of the radiation constraint (W / square meter).
+
+    RCP2.6: Strict scenario. The peak in CO2 emissions will be reached in 2020 and will be close to zero by the end of the century. The carbon dioxide concentration will peak around 2050 around 2050 and will start to decline thereafter.
+    RCP4.5: Average scenario. CO2 emissions will initially increase slightly, but will start to decline around 2040. Towards the end of the century, the concentration of carbon dioxide in the air will stabilize at about double the pre-industrial level.
+
+There is significant uncertainty associated with climate scenarios, which makes it a good idea to look at several scenarios and prepare for different types of change at the same time.
+Using the application
+
+The application has two tabs, one visualizing the effects of climate change on flows and the other on floods.
+
+Climate change and flows
+
+The first tab allows the user to select a water area, time period, and scenario from the side panel for viewing. The graph and table can be downloaded from the links in the left sidebar of the tab.
+
+    Select a watershed from the drop-down menu. There are a total of 27 sites. Water bodies have been selected for visualization that are as unregulated as possible, with a few exceptions. These are Oulujoki, Merikoski and Paatsjoki, Kaitakoski. For example, the regulation of the Oulu River affects the flow.
+
+    Select a date range. The choice is climate change for the years 2010-2039 and 2040-2069. Note that part of the projected growth has already taken place over the last ten years, as the reference period is 1981-2010.
+
+    Select a climate change scenario.
+
+    Average of several scenarios
+        Average of several climate change scenarios with RCP4.5 emission scenario
+        Describes the average change according to climate scenarios, the so-called average scenario
+    Warm and wet
+        MIROC-ESM-CHEM global climate model with RCP4.5 emission scenario
+        Extreme scenario: large temperature rises and rather large precipitation increases
+    Cold
+        CESM1_CAM5 global climate model with RCP2.6 emission scenario
+        Extreme scenario: small emissions and small temperature rises
+
+Cameraman
+
+The selected variables are used to draw a graph showing:
+
+    Simulated for the selected water body, time period and scenario
+    
+    
+    Simulated average daily discharges and range (maximum-minimum) for the selected water body, period and scenario over a 30-year period.
+    In the background, the average of the daily flows of the reference period (1981-2010) and the range (maximum-minimum) in gray.
+    The x-axis of the graph shows the months from January to December, and the flow on the y-axis.
+    When interpreting the results, it is good to remember that the flows of the reference period are also the values ​​simulated by the model, and may differ due to the observed flows, e.g. On the calculation of the river basin model, precipitation and temperature observations and the regulation of water bodies.
+
+Table
+
+    Annual averages, seasonal averages, overflows and underflows (ie average overflows over 30 years)
+    In interpreting the results, it is good to remember that part of the projected growth has already taken place over the last ten years, as the reference period is 1981-2010.
+
+Climate change and floods
+
+On the second tab, the user can select a time from the side panel, and view the impact of climate change on floods that occur once every hundred years in different parts of Finland. The analysis calculates the average change of 25 different climate scenarios compared to the reference period 1981-2010, as well as the maximum and minimum change (possible range). There is a great deal of uncertainty about the change in floods, which should be taken into account when interpreting the results. The table can be downloaded from the link in the left sidebar of the tab.
+Table
+
+    The average represents the average change in 25 scenarios in floods occurring every 100 years (1 / 100a) compared to the reference period.
+    The maximum indicates the largest change in all scenarios relative to the reference period.
+    The minimum indicates the smallest change in scenarios relative to the reference period.
+    You can change the order of the rows in the table by pressing the table headings.
+
+Map
+
+    The map can be used to visualize the average, maximum and minimum changes in floods occurring once in a hundred years (1 / 100a) for the selected period. Red indicates an increase in floods and blue a decrease. The size of the ball describes the distance of change from zero (the larger the ball, the larger the change).
+
+useful links
+
+More information about the Climate Change Analysis project: Project page
+
+Climate change and water management in flood risk management guidelines (3/2020): Download pdf
+
+Researched information on climate change compiled on one website: ilmasto-opas.fi
+
+Current water information about Finland: vesi.fi
+Contact information and feedback
+
+We are happy to collect feedback regarding the content and features of the site.
+If you have any thoughts or ideas, click on the feedback link and share the comments with us.
+
+For technical matters, please contact us by e-mail: rajeshsinghkadyan@gmail.com
+The application is made with R's Shiny package. The source code is on GitHub.",
+                                 "Feedback Form"
